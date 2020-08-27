@@ -356,7 +356,7 @@ class FastSpeech(AbsTTS):
             speech (Tensor): Batch of padded target features (B, Lmax, odim).
             speech_lengths (LongTensor): Batch of the lengths of each target (B,).
             durations (LongTensor): Batch of padded durations (B, Tmax + 1).
-            durations_lengths (LongTensor): Batch of duration lengths (B, Tmax + 1).
+            durations_lengths (LongTensor): Batch of duration lengths (B,).
             spembs (Tensor, optional): Batch of speaker embeddings (B, spk_embed_dim).
 
         Returns:
